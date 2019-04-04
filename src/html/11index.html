@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>13加载其他html文件内容</title>
+	<style>
+		header{border:2px solid #f00;}
+		footer{border:2px solid #58bc58;}
+		.container{
+			background-color: #efefef;
+			display: flex;
+			height:300px;
+		}
+		.container .left{width:200px;background-color: #666;}
+		.container .right{width:300px;background-color: #666;}
+		.container .center{flex:1;background-color: #999;}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+	<script>
+		jQuery(function($){
+			/*
+				$box.load(url,callback)：把url文件内容写入$box
+					* ajax请求
+					* 异步请求
+					* 加载部分内容
+					* 回掉函数：加载完成后执行
+			 */
+
+			$('#pageHeader').load('11header.html',function(){
+				$(".logo img").width(100);
+			});
+
+			 $('#pageFooter').load('11footer.html');
+		});
+	</script>
+</head>
+<body>
+	<header id="pageHeader"></header>
+	<div class="container">
+		<div class="left">left</div>
+		<div class="center">center</div>
+		<div class="right">right</div>
+	</div>
+	<footer id="pageFooter"></footer>
+</body>
+</html>
