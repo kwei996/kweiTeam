@@ -1,0 +1,278 @@
+#main{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+#main_t ul{
+	padding:8px 0px 16px 25px;
+}
+#main_t ul li{
+	display: inline-block;
+	position: relative;
+}
+#main_t ul li a{
+	font-size: 12px;
+	color: #000;
+}
+#main_t ul li>i{
+	display: block;
+	width: 21px;
+	height: 17px;
+	background: url(../images/spirit2.png);
+	background-position: -130px -500px;
+	position: absolute;
+	left: -22px;
+	top: -1px;
+}
+#main_l{
+	width: 210px;
+	float: left;
+	/*background: red;*/
+}
+#main_l .sho{
+	width: 201px;
+	border-bottom: 2px solid #CFCFCF;
+}
+#main_l .sho li{
+	width: 48px;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+	/*box-sizing:content-box;*/
+	padding-bottom: 2px;
+	margin-bottom: -2px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#main_l .sho_b{
+	width: 201px;
+	/*height: 537px;*/
+	padding-bottom: 20px;
+	padding-top: 16px;
+	border-bottom: 1px solid #CFCFCF;
+}
+#main_l .sho_b li{
+	position: relative;
+	padding-left: 18px;
+}
+#main_l .sho_b li a{
+	display: block;
+	line-height: 24px;
+	color: #000;
+}
+#main_l .sho_b li i{
+	display: block;
+	width: 16px;
+	height: 13px;
+	background: url(../images/spirit2.png) no-repeat 0 -500px;
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+#main_l .sho_b li:hover a{
+	color: #FF4500;
+}
+#main_l .sho_b li:hover i{
+	background-position: -180px 0;
+}
+#main_l .biaoti h3{
+	width: 201px;
+	font-weight: bold;
+	padding-left: 10px;
+	box-shadow: 0px 23px 16px -10px #EEEEEE inset;
+	padding-top: 18px;
+}
+#main_l #list_l{
+	width: 201px;
+	
+}
+#list_l h3{
+	font-weight: bold;
+	padding-left: 10px;
+}
+#main_l #list_l li{
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+#main_l #list_l li img{
+	display: block;
+	width: 100%;
+}
+#main_l #list_l li a{
+	color: #000;
+}
+#main_l #list_l li p:nth-child(3) span{
+	text-decoration: line-through;
+}
+#main_l #list_l li p:nth-child(4) span{
+	color: red;
+}
+#main_l #list_l li p:last-child{
+	color: green;
+}
+
+
+#main_r{
+	margin-left: 210px;
+	/*background: pink;*/
+}
+#main_r .ineer{
+	border-bottom: 2px solid #000;
+	overflow:hidden;
+}
+#main_r .sho_l{
+	float: left;
+}
+#main_r .sho_l li{
+	float: left;
+	display: inline-block;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 15px;
+	font-size: 12px;
+	position: relative;
+}
+#main_r .sho_l li a{
+	color: red;
+}
+#main_r .sho_l li:nth-child(3) a{
+	color: #000;
+}
+#main_r .sho_l li i{
+	display: block;
+	width: 12px;
+	height: 13px;
+	background: url(../images/spirit2.png) no-repeat;
+	position: absolute;
+	left: 30px;
+	top: 0;
+}
+#main_r .sho_l li:nth-child(1){
+	padding-right: 12px;
+}
+#main_r .sho_l li:nth-child(2){
+	color: red;
+	padding-right: 16px;
+	cursor: pointer;
+}
+#main_r .sho_l li:nth-child(3){
+	font-weight: normal;
+	cursor: pointer;
+}
+#main_r .sho_r{
+	float: right;
+}
+#main_r .sho_r li{
+	float: left;
+	padding-right: 20px;
+	position: relative;
+}
+#main_r .sho_r li a{
+	color: #000;
+}
+#main_r .sho_r li:nth-child(2) a{
+	color: #FF4500;
+}
+#main_r .sho_r li:last-child span{
+	display: block;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 6px solid #000;
+    position: absolute;
+    right: 3px;
+    top: 6px;
+}
+
+/*产品列表========================================*/
+#list_r{
+	width: 755px;
+	padding-left: 15px;
+}
+#list_r li{
+	float: left;
+	width: 25%;
+	height: 350px;
+	overflow: hidden;
+	padding: 4px;
+}
+#list_r li a{
+	display: block;
+	color: #000;
+	position: relative;
+}
+#list_r img{
+	display: block;
+	height: 200px;
+	margin: 0 auto;
+}
+#list_r li p{
+	line-height: 25px;
+	position: relative;
+}
+#list_r li a input{
+	vertical-align: middle;
+}
+#list_r li p:nth-child(3) span:nth-child(1){
+	text-decoration: line-through;
+}
+#list_r li p:nth-child(3) span:nth-child(2){
+	color: red;
+}
+#list_r li p:nth-child(4) span{
+	color: red;
+}
+#list_r li p:last-child{
+	color: green;
+}
+#list_r li p:nth-child(4){
+	color: green;
+}
+r #list_r li a:last-child span{
+	display: block;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 6px solid #000;
+    position: absolute;
+    right: 26px;
+    top: 7px;
+}
+#list_r li a:last-child{
+	text-decoration: underline;
+}
+#main_r .next{
+	width: 100%;
+	padding: 28px 0 17px 0;
+}
+#main_r .next .next_b{
+	float: right;
+}
+#main_r .next .next_b li{
+	padding-right: 20px;
+	float: left;
+}
+#main_r .next .next_b li a{
+	color: #000;
+	position: relative;
+}
+#main_r .next_b li:nth-child(1) span{
+	font-weight: bold;
+}
+#main_r .next_b li:nth-child(3) a{
+	color: #FF4500;
+}
+#main_r .next_b li a:last-child span{
+	display: block;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 6px solid #000;
+    position: absolute;
+    right: -13px;
+    top: 6px;
+}

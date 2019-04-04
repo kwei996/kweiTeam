@@ -1,0 +1,767 @@
+/*公共头部========================================*/
+#header_top{
+	/*height: 88px;*/
+	background: #FF4500;
+}
+#header_top .left{
+	color: #fff;
+	word-spacing: 3px;
+}
+#header_top .left a{
+	color: #fff;
+	line-height: 24px;
+	text-decoration: underline;
+}
+#header_top .left span{
+	color: #FFCC00;
+	font-weight: bold;
+}
+#header_top #myAccount{
+	float:left;
+	position: relative;
+	width: 100px;
+}
+#header_top #myAccount a:nth-child(1){
+	display: block;
+	padding-left: 10px;
+	color: #fff;
+	text-decoration: underline;
+	line-height: 22px;
+	z-index: 9999;
+	position: relative;
+}
+#header_top #myAccount:hover a:nth-child(1){
+	background: #fff;
+	color: #FF4500;
+	border: 1px solid #ccc;
+	border-bottom-color: transparent;
+}
+#header_top #myAccount:hover ul{
+	display: block;
+}
+#header_top #myAccount ul{
+	position: absolute;
+	width: 132px;
+	display: none;
+	top: 23px;
+	z-index: 999;
+	padding: 10px 4px;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 1px #666;
+}
+#header_top #myAccount ul li{
+	line-height: 30px;
+	border-bottom: 1px dotted #ccc;
+	position: relative;
+	padding-left: 26px;
+	cursor: pointer;
+}
+#header_top #myAccount ul li:hover{
+	text-decoration: underline;
+}
+#header_top #myAccount li i{
+	display: block;
+	width: 17px;
+	height: 26px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../images/spirits.fw.png") no-repeat 0 -150px;
+}
+#header_top #myAccount li:nth-child(2) i{
+	background-position: -50px -150px
+}
+#header_top #myAccount li:nth-child(3) i{
+	background-position: -100px -150px
+}
+#header_top #myAccount li:nth-child(4) i{
+	background-position: -150px -150px
+}
+#header_top #myAccount li:nth-child(5) i{
+	background-position: -200px -150px
+}
+#header_top #myAccount li:nth-child(6) i{
+	background-position: -250px -150px
+}
+#header_top #myAccount>a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 6px;
+	top: 10px;
+	height: 0;
+	border: 5px solid transparent;
+	border-top-color: #fff;
+}
+#header_top #myAccount:hover>a:after{
+	border-top-color: #FF4500;
+}
+
+#header_top #shopCart{
+	float: left;
+	position: relative;
+	width: 130px;
+}
+#header_top #shopCart .top{
+	line-height:22px;
+	color: #fff;
+	padding-left: 30px;
+	cursor: default;
+	position: relative;
+	z-index: 9999;
+}
+#header_top #shopCart:hover .top{
+	background: #fff;
+	color: #FF4500;
+	border: 1px solid #ccc;
+	border-bottom-color: transparent;
+}
+#header_top #shopCart .top i{
+	display: block;
+	width: 14px;
+	height: 11px;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	background: url("../images/spirits.fw.png") no-repeat 0 0;
+}
+#header_top #shopCart:hover .top i{
+	background-position: -30px 0;
+}
+#header_top #shopCart .top span:nth-of-type(2){
+	color: #FFCC00;
+}
+#header_top #shopCart:hover .top span:nth-of-type(2){
+	color: #FF4500;
+}
+#header_top #shopCart .top:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 6px;
+	top: 10px;
+	height: 0;
+	border: 5px solid transparent;
+	border-top-color: #fff;
+}
+#header_top #shopCart:hover .top:after{
+	border-top-color: #FF4500;
+}
+#header_top #shopCart:hover .below{
+	display: block;
+}
+#header_top #shopCart .below{
+	width: 227px;
+	display: none;
+	z-index: 999;
+	position: absolute;
+	top: 23px;
+	left: 0;
+	background: #fff;
+	padding: 10px 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 1px #666;
+}
+#header_top #shopCart .below img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin-top: 6px;
+}
+#header_top #shopCart .below li p{
+	width: 156px;
+	float: right;
+}
+#header_top #shopCart .below li p a{
+	color: #333;
+	text-decoration: underline;
+}
+#header_top #shopCart .below li p span{
+	color: #FF4500;
+}
+#header_top #shopCart .below li{
+	padding: 5px 0;
+}
+#header_top #shopCart .below>p{
+	line-height: 24px;
+	text-align: center;
+	color: #585959;
+	font-weight: bold;
+}
+#header_top #shopCart .below>p span{
+	font-weight: normal;
+	color: #FF4500;
+}
+#header_top #shopCart .below .checkOut{
+	display: block;
+	width: 102px;
+	height: 24px;
+	background: #585959;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+
+
+#header_top #orderTracking{
+	float: left;
+	width: 98px;
+	color: #fff;
+	text-decoration: underline;
+	line-height:22px;
+	padding-left: 4px;
+}
+#header_top #help{
+	display: block;
+	width: 43px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	float: left;
+	padding-left: 16px;
+	position: relative;
+	text-decoration: underline;
+}
+#header_top #help i{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 15px;
+	height: 16px;
+	background: url("../images/spirits.fw.png") no-repeat 0 -54px;
+}
+#header_below{
+	background: #FF4500;
+	width: 100%;
+}
+#header_below h1{
+	width: 250px;
+}
+#header_below h1 a{
+	display: block;
+	height: 64px;
+	text-indent: -9999px;
+	background: url("../images/spirits.fw.png") no-repeat -60px 0;
+}
+#header_below #search{
+	margin-left: 90px;
+	float: left;
+	padding-top: 6px;
+}
+#header_below #search .top{
+	position: relative;
+}
+#header_below #search .top input:nth-child(1){
+	display: block;
+	float: left;
+	width: 356px;
+	height: 32px;
+	border: 1px solid #593B3A;
+	padding-left: 24px;
+	line-height: 30px;
+	background: #CFCFCF;
+}
+#header_below #search .top input:nth-child(2){
+	display: block;
+	float: left;
+	width: 81px;
+	height: 32px;
+	color: #fff;
+	background: #6B4A42;
+	border: 1px solid #593B3A;
+	border-left-color: transparent;
+}
+#header_below #search .top i{
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 13px;
+	top: 10px;
+	left: 8px;
+	background: url("../images/spirits.fw.png") no-repeat -320px 0;
+}
+#header_below #search .below a{
+	line-height: 26px;
+	color: #fff;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+#header_below #phoneCall{
+	display: block;
+	float: right;
+	width: 162px;
+	height: 64px;
+	background: url("../images/spirits.fw.png") no-repeat 0 -80px;
+}
+/*公共导航栏======================================*/
+#nav{
+	height: 33px;
+	background: #2B2B2B;
+	border-bottom: 3px solid #CFCFCF;
+}
+/*侧边栏导航条==============================================*/
+#nav .tab1{
+	width: 210px;
+}
+#nav .tab1>h6{
+	line-height: 30px;
+	padding-left: 10px;
+	color: #CFCFCF;
+	background: #404040;
+	position: relative;
+	cursor: pointer;
+}
+#nav .tab1>h6:after{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 7px;
+	top: 10px;
+	right: 6px;
+	position: absolute;
+	background: url("../images/spirits.fw.png") no-repeat -340px 0;
+}
+#nav .tab1_tab1{
+	width: 210px;
+	position: absolute;
+	z-index: 9999;
+	background: #fff;
+	display: none;
+	border: 1px solid #CFCFCF;
+	box-shadow: -2px 3px 1px #666;
+}
+#nav .tab1_tab1>li{
+	height: 70px;
+}
+#nav .tab1_tab1>li:nth-child(even){
+	background: #F1F1F1;
+}
+#nav .tab1_tab1>li:hover{
+	background: #2B2B2B;
+}
+#nav .tab1_tab1>li:hover .tab1_tab2>li:first-child:after{
+	display: none;
+}
+#nav .tab1_tab1>li:hover .tab1_tab2>li{
+	color: #C5CFC5;
+}
+#nav .tab1_tab1>li:hover .tab1_tab2>li>a{
+	color: #C5CFC5;
+}
+#nav .tab1_tab2>li{
+	float: left;
+	margin-left: 10px;
+}
+#nav .tab1_tab2>li:first-child{
+	width: 200px;
+	color: #404040;
+	line-height: 30px;
+	font-weight: bold;
+	position: relative;
+}
+#nav .tab1_tab2>li:first-child:after{
+	content: "";
+	display: block;
+	width: 5px;
+	height: 7px;
+	top: 14px;
+	right: 10px;
+	position: absolute;
+	background: url("../images/spirits.fw.png") no-repeat -370px 0;
+}
+#nav .tab1_tab1>li:nth-child(even) .tab1_tab2>li:first-child:after{
+	background-position: -390px 0;
+}
+#nav .tab1_tab2>li>a{
+	display: block;
+	line-height:18px;
+	color: #5A5A5A;
+}
+#nav .tab1_tab2>li>a:hover{
+	text-decoration: underline;
+}
+#nav .tab1_tab2:hover .tab1_tab3{
+	display: block;
+}
+#nav .tab1_tab2>li>.tab1_tab3{
+	width: 580px;
+	background: #404040;
+	position: absolute;
+	z-index: 9999;
+	left: 100%;
+	top: 0;
+	display: none;
+}
+#nav .tab1_tab3 .left{
+	width: 410px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#nav .tab1_tab3 .left p{
+	padding-top: 10px;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #999;
+	color: #999;
+}
+#nav .tab1_tab3 .left ul li{
+	float: left;
+}
+#nav .tab1_tab3 .left a{
+	display: block;
+	width: 130px;
+	padding-left: 5px;
+	line-height: 20px;
+	color: #CFCFCF;
+	white-space: nowrap;
+}
+#nav .tab1_tab3 .left li:hover a{
+	text-decoration: underline;
+}
+#nav .tab1_tab3 .right{
+	width: 170px;
+	height: 438px;
+	background: url("../images/nav_l_bg3.png") repeat-y;
+}
+#nav .tab1_tab3 .right>a{
+	display: block;
+	width: 136px;
+	height: 20px;
+	line-height:20px;
+	color: #fff;
+	background: #5A5A5A;
+	margin: 11px 0 5px 11px;
+	position: relative;
+}
+#nav .tab1_tab3 .right>a span{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 120px;
+	top: 6px;
+}
+#nav .tab1_tab3 .right>a span i{
+	display: block;
+	height: 0;
+	border: 3px solid transparent;
+	border-left-color: #000;
+	position: absolute;
+	left: 3px;
+	top: 1px;
+}
+#nav .tab1_tab3 .right ul a{
+	display: block;
+	line-height: 24px;
+	color: #CFCFCF;
+	padding-left: 11px;
+	position: relative;
+}
+#nav .tab1_tab3 .right ul li:first-child{
+	position: relative;
+}
+#nav .tab1_tab3 .right ul li:first-child:after{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 10px;
+	position: absolute;
+	top: 8px;
+	left: 70px;
+	background: url("../images/spirits.fw.png") no-repeat -320px -20px;
+}
+#nav .tab1_tab3 .right ul a i{
+	display: block;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 8px solid #fff;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+#nav .tab1_tab3 .right a:hover{
+	text-decoration: underline;
+}
+/*水平导航条====================================*/
+#nav .tab2 li{
+	float: left;
+}
+#nav .tab2 li a{
+	position: relative;
+}
+#nav .tab2 li:nth-child(4) a i{
+	display: block;
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 12px;
+	top: 9px;
+	background: url("../images/spirits.fw.png") no-repeat -350px -20px;
+}
+#nav .tab2 li:last-child a i{
+	display: block;
+	width: 16px;
+	height: 10px;
+	position: absolute;
+	left: 7px;
+	top: 10px;
+	background: url("../images/spirits.fw.png") no-repeat -320px -20px;
+}
+#nav .tab2 li a{
+	display: block;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+}
+/*#nav .tab2 li:first-child a{
+	background: #E54205;
+}
+#nav .tab2 li:first-child a span{
+	border-color: #E54205;
+}*/
+#nav .tab2 li a span{
+	display: inline-block;
+	border-right: 1px solid #C2BF9D;
+	padding-left: 15px;
+	padding-right: 12px;
+	line-height: 12px;
+}
+#nav .tab2 li:nth-last-child(-n+2) a span{
+	padding-left: 26px;
+}
+#nav .tab2 li a:hover{
+	background: #E54205;
+}
+#nav .tab2 li a:hover span{
+	border-color: #E54205;
+}
+#nav .tab2 li:last-child a span{
+	border-width: 0;
+}
+#nav .tab2 li:nth-last-child(-n+4):hover{
+	margin-left: -1px;
+}
+#nav .tab2 li:nth-child(2):hover span{
+	padding-left: 16px;
+}
+#nav .tab2 li:nth-child(3):hover span{
+	padding-left: 16px;
+}
+#nav .tab2 li:nth-last-child(-n+2):hover span{
+	padding-left: 27px;
+}
+#nav .tab2 li:nth-child(4):hover i{
+	left: 13px;
+}
+#nav .tab2 li:nth-child(5):hover i{
+	left: 8px;
+}
+#nav>.container>.right>a{
+	display: block;
+	width: 150px;
+	height: 30px;
+	background: url("../images/spirits.fw.png") no-repeat -180px -80px;
+}
+
+/*公共底部========================================*/
+#footer{
+	background: #fff;
+	margin-top: 10px;
+}
+#footer .container{
+	border-top: 2px solid #5A5A5A;
+}
+#footer .top{
+	overflow: hidden;
+}
+#footer .top ul{
+	float: left;
+	width: 180px;
+}
+#footer .top ul li h3{
+	line-height: 38px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #000;
+}
+#footer .top ul li a{
+	line-height: 18px;
+	font-size: 12px;
+	color: #333333;
+}
+#footer .top ul li i{
+	display: block;
+	padding-left: 20px;
+	height: 22px;
+	background: url(../images/spirit2.png) no-repeat;	
+}
+#footer .top ul li i>a{
+	color: #D2691E;
+	line-height: 10px;
+}
+#footer .top ul li i>span{
+	display: block;
+	color: #000;
+	line-height: 10px;
+	font-style:italic;
+	margin-top: -5px;
+}
+#footer .top ul li .twitter{
+background-position:0px -30px;
+}
+	
+#footer .top ul li .blog{
+background-position:0px -60px;	
+}
+#footer .top .fr{
+	margin:10px 0 0 15px;
+
+	padding-left: 42px;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -450px 0;
+}
+#footer .top .fr li .message{
+	display: block;
+	width: 80px;
+	height: 22px;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -250px 0;
+}
+#footer .top .fr .email{
+	width: 172px;
+	height: 20px;
+	line-height: 10px;
+	color: #8B7575;
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+}
+#footer .top .fr h4{
+	font-size: 10px;
+	line-height: 14px;
+}
+#footer .center{
+	margin:30px 0 16px 124px;
+	height: 33px;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position:0 -100px;
+}
+#footer .bottom{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#footer .bottom>span{
+	display: inline-block;
+	padding-right: 12px;
+	color: #D2691E;
+}
+/*客服========================================*/
+#kefu{
+	position: fixed;
+	right: 10px;
+	bottom: 124px;
+	z-index: 999;
+}
+#kefu .top{
+	width: 50px;
+	height: 135px;
+	background: #fff;
+	border-top:2px solid #F96704; 
+	border-bottom: 1px solid #F96704;
+	box-sizing:border-box; 
+	position: relative;
+}
+#kefu .top span:nth-child(2){
+	display: block;
+	font-size: 20px;
+	color: #F96900;
+	padding:3px 0 0 5px;
+	font-weight: bold;
+}
+#kefu .top span:nth-child(3){
+	margin-left: 8px;
+}
+#kefu .top span i:nth-child(1){
+	font-size: 15px;
+	color: #000;
+}
+#kefu .top span i:nth-child(2){
+	font-size: 10px;
+	color: #000;
+}
+#kefu .top span:nth-child(4){
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 15px;
+	bottom: 8px;
+	background: url("../images/spirits.fw.png") no-repeat -380px -20px;
+}
+#kefu .toTopBtn{
+	cursor: pointer;
+}
+#kefu .btnTop{
+	width: 50px;
+	height: 15px;
+	background: #D9D9D9;
+	padding-top: 2px;
+}
+#kefu .btnTop span:nth-child(1){
+	display: block;
+	height: 0;
+	float: left;
+	padding-top: 2px;
+	margin-left: 8px;
+	border: 5px solid transparent;
+	border-bottom-color: #565656;
+}
+#kefu .btnTop span:nth-child(2){
+	font-size: 14px;
+	padding-left: 3px;
+}
+#kefu .btnBelow{
+	width:0px;
+ 	height:0px;
+ 	border-bottom:15px solid transparent;
+ 	border-left:50px solid #D9D9D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

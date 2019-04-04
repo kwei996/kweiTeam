@@ -1,0 +1,99 @@
+#main .left{
+	width: 720px;
+	padding-top: 20px;
+
+}
+
+#main .left h3{
+	line-height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 2px solid #404040;
+}
+#main .left h3 span{
+	color: #FF4500;
+	padding: 0 10px;
+	font-size: 24px;
+}
+#main .left .shipping .title{
+	position: relative;
+}
+#main .left .shipping .title span:first-child{
+	font-size: 12px;
+	line-height: 36px;
+	font-weight: bold;
+	padding-left: 24px;
+	padding-right: 10px;
+}
+#main .left .shipping .title:before {
+	content:"";
+	display: block;
+	height: 0;
+	border: 4px solid transparent;
+	border-left-color: #333;
+	position: absolute;
+	top: 14px;
+	left: 12px;
+}
+#main .left .shipping .title span:last-child{
+	line-height: 18px;
+	background: #5A5A5A;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0 3px;
+}
+#main .left .addressList li{
+	width: 212px;
+	height: 82px;
+	border: 1px solid #DEDEDE;
+	display: inline-block;
+	padding-top: 10px;
+	position: relative;
+	background: linear-gradient(to bottom,#ddd 0%,#fff 30%);
+}
+#main .left .addressList li:before {
+	content: '';
+	display: block;
+	width: 208px;
+	height: 0;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#main .left .addressList li p{
+	padding-left: 26px;
+	line-height: 18px;
+}
+#main .left .addressList li p:first-child {
+	font-weight: bold;
+}
+#main .left .addressList li p:nth-of-type(2) span:nth-of-type(2){
+	color: #bbb;
+	font-style: italic;
+}
+#main .left .addressList li p:nth-of-type(3) {
+	color: #58bc58;
+}
+#main .left .addressList li .radioBox{
+	position: absolute;
+	left: 8px;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+
+
+
+
+#main .right{
+	width: 242px;
+	min-height: 200px;
+	border: 1px solid #333;
+	margin-top: 50px;
+}
+
+
+
+

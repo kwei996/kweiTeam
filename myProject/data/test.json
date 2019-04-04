@@ -1,0 +1,22 @@
+[
+	{
+        "time":"2011/01/06",
+        "id":0,
+        "color":"red,yellow,pink,green,white",
+        "size":"35,36,37,38,40",
+        "imgsrc":"../images/product1_1.jpg,../images/product1_2.jpg,../images/product1_3.jpg,../images/product1_4.jpg,../images/product1_5.jpg",
+        "descript":"Up & Down Open Cowhide with Leather Croocodile...",
+        "price":119,
+        "discout":9
+    },
+    {
+        "time":"2011/01/01",
+        "id":1,
+        "color":"red,yellow,pink,green,white",
+        "size":"S,M,L,XL,XXL",
+        "imgsrc":"../images/product2_1.jpg,../images/product2_2.jpg,../images/product2_3.jpg,../images/product2_4.jpg,../images/product2_5.jpg",
+        "descript":"Up & Down Open Cowhide with Leather Croocodile...",
+        "price":29,
+        "discout":9
+    }
+]

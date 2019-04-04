@@ -1,0 +1,933 @@
+#link ul li{
+	float:left;
+	padding: 0 16px;
+	position: relative;
+}
+
+#link ul li a{
+	display: block;
+	color:#6E336E;
+	line-height:30px;
+	font-size:12px;
+}
+#link ul li i{
+	position:absolute;
+	display:block;
+	width: 15px;
+	height: 13px;
+	background: url("../images/spirit3.fw.png") no-repeat center;
+	top:7px;
+	left:-1px;
+}
+#introduce .container{
+	border:1px solid #ccc;
+}
+#introduce .choose{
+	width:100%;
+	float: left;
+	padding:0 208px 0 402px;
+}
+#introduce .pict{
+	width: 402px;
+	height: 716px;
+	margin-left: -100%;
+	float: left;
+}
+#introduce .stock{
+	width:208px;
+	height: 716px;
+	margin-left: -208px;
+	float: left;
+}
+#introduce .pict .bigimg img{
+	width:402px;
+	height:390px; 
+}
+#introduce .pict ul{
+	padding: 0 20px;
+	position: relative;
+}
+#introduce .pict ul li{
+	float: left;
+	border:1px solid #ccc;
+	padding:0 4px;
+}
+#introduce .pict ul li img{
+	width:62px;
+	height: 62px;
+}
+#introduce .pict ul li:hover{
+	border:1px solid #FF6701;
+}
+#introduce .pict .smallimg{
+	position: relative;
+}
+#introduce .pict .smallimg .btn{
+	display: block;
+	width:13px;
+	height:33px;
+	position: absolute;
+}
+#introduce .pict .zuo{
+	background: url("../images/spirit3.fw.png") no-repeat -40px 0;
+	top: 16px;
+	left:6px;
+}
+#introduce .pict .you{
+	background: url("../images/spirit3.fw.png") no-repeat -60px 0;
+	top:16px;
+	right: 6px;
+}
+
+#introduce .choose h3{
+	font-size:14px ;
+	color:#333333;
+	line-height:18px ;
+	padding:13px 10px;
+	font-weight: bold;
+}
+#introduce .choose h3 span{
+	color:#99B5D7;
+	font-weight: normal;	
+}
+#introduce .choose img{
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+#introduce .choose table{
+	text-align: center;
+	margin-left: 11px;   
+	width: 340px;
+	border-spacing: 0;
+}
+#introduce .choose table th{
+	font-size:12px;
+	color:#986969;
+	font-weight:bold;
+	line-height: 30px;
+}
+#introduce .choose table td{
+	font-size: 12px;
+	color:#5A5A5A;
+	line-height: 30px;
+}
+#introduce .choose table .price{
+	color:#CC1829;
+}
+#introduce .choose .sales{
+	margin:10px 0 0 11px;
+	background:#DFDFDF;
+	border:1px solid #ccc;
+	border-radius: 3px;
+
+}
+#introduce .choose .sales p{
+	font-size: 12px;
+	line-height: 18px;
+	color:#333381;
+	padding-left: 11px;
+}
+#introduce .choose .sales p i{
+	display: inline-block;
+	width:125px;
+	height:28px ;
+	background:url(../images/detail_sale1.fw.png) no-repeat center;
+	line-height: 28px;
+	padding-left: 32px;
+}
+#introduce .choose .sales p.red{
+	color:red;
+}
+#introduce .choose .sales p.red a{
+	text-decoration: underline;
+	color:black;
+}
+#introduce .choose .sales p:first-child{
+	padding-top: 10px;
+}
+#introduce .choose .sales p:nth-child(2){
+	padding-bottom: 10px;
+}
+#introduce .choose .sales p:nth-child(4){
+	padding-bottom: 10px;
+}
+#introduce .choose .size span{
+	display: block;
+	color:#543361;
+	font-size: 12px;
+	float:left;
+	line-height: 22px;
+}
+#introduce .choose .size .box{
+	width:100%;
+	margin: 15px 0 0 11px;
+}
+#introduce .choose .size ul{
+	padding-left: 20px;
+	float: left;
+}
+#introduce .choose .size ul li{
+	position: relative;
+	float:left;
+	padding:0 13px;
+	line-height: 22px;
+	color:black;
+	border:1px solid black;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#introduce .choose .size ul li i{
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	right: 0;
+	bottom: 0;
+}
+#introduce .choose .size ul li:hover{
+	border:1px solid #FF4500;
+}
+#introduce .choose .size ul li:hover i{
+	background: url(../images/spirit3.fw.png) no-repeat 0 -40px;	
+}
+#introduce .gift p{
+	display: inline-block;
+	padding-left: 5px;
+	line-height: 28px;
+}
+#introduce .gift .select{
+	margin-bottom: 3px;
+	height: 28px;
+	background: #DFDFDF;
+	position: relative;
+	padding-left: 5px;
+}
+#introduce .gift .select input{
+	line-height: 28px;
+}
+#introduce .gift h3 span{
+	color:#FE6F81;
+}
+#introduce .gift .select a{
+	display: inline-block;
+	float: right;
+	text-decoration: underline;
+	color:blue;
+	line-height: 28px;
+	padding-right: 15px;
+}
+#introduce .gift .select a::after{
+	content:"";
+	width:0;
+	height: 0;
+	border:6px solid;
+	border-color: black transparent transparent transparent;
+	position: absolute;
+	top:12px;
+	right: 2px;	
+}
+#introduce .gift{
+	border-bottom: 2px dotted black;
+	margin-left: 11px;
+}
+#introduce .gift h3{
+	margin-left: 11px;
+	position: relative;
+	padding-left: 15px;
+}
+#introduce .gift h3 a{
+	display: block;
+	font-size:12px;
+	color:green;
+	line-height: 18px;
+	text-decoration: underline;
+}
+#introduce .gift h3 i{
+	display: block;
+	width:15px ;
+	height: 13px;
+	background:url(../images/spirit3.fw.png) no-repeat -100px 0;
+	position: absolute;
+	left: -2px;
+	top: 18px;
+}
+#introduce .addcar{
+	position: relative;
+}
+#introduce .addcar label{
+	font-size:12px ;
+	color:black;
+	padding:15px 5px 0 21px;
+	font-weight: bold;
+}
+#introduce .addcar input{
+	width: 65px;
+	height: 22px;
+	margin-top: 15px;
+	border:1px solid #ccc;
+}
+#introduce .addcar p{
+	line-height: 21px;
+	padding-left:15px;	
+}
+#introduce .addcar p.points{
+  	padding-left:36px;
+  	position:relative;
+}
+#introduce .addcar p.points i{
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/spirit3.fw.png) no-repeat -120px 0;
+	top: 3px;
+	left:14px;
+}
+#introduce  .addcar .car{
+	width:141px;
+	background: #FF4500;
+	position: absolute;
+	right:20px;
+	top:10px;
+	padding: 0 18px 0 30px;
+	border-radius: 12px 0 0 12px;
+	cursor: pointer;
+}
+#introduce .addcar .car span{
+	height: 30px;
+	line-height: 30px;
+	color:#fff;
+	padding-left: 8px;
+}
+#introduce .addcar .car i.che{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/spirit3.fw.png) no-repeat -150px 0;
+	position: absolute;
+	top: -1px;
+	left: 0;
+}
+#introduce .addcar .car i.trig{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: url(../images/spirit3.fw.png) no-repeat -190px 0;
+	position: absolute;
+	top: 12px;
+	right: 7px;
+}
+#introduce .stock h3{
+	font-size: 12px;
+	color:#228B22;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+}
+#introduce .stock .star{
+	width: 163px;
+	margin:0 auto;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 12px;
+}
+#introduce .stock .star ul{
+	float: left;
+}
+#introduce .stock .star ul li{
+	margin-left: 5px;
+	float:left;
+	width:14px;
+	height: 14px; 
+	background: url(../images/spirit3.fw.png) no-repeat -200px 0 ;
+}
+#introduce .stock .star ul li:last-child{
+	background: url(../images/spirit3.fw.png) no-repeat -220px 0 ;
+}
+#introduce .stock .star p{
+	float:right;
+}
+#introduce .stock .star p a{
+	text-decoration: underline;
+	color:blue;
+}
+#introduce .stock  .friend{
+	margin-top: 20px;
+}
+#introduce .stock  .friend li{
+	float:left;
+	padding:0 18px 0 20px;
+	height: 20px;
+	position: relative;
+}
+#introduce .stock  .friend li i.fd{
+	position: absolute;
+	display: block;
+	width:19px ;
+	height: 19px;
+	background: url(../images/spirit3.fw.png) no-repeat -240px 0;
+}
+#introduce .stock  .friend li i.tp{
+	position: absolute;
+	display: block;
+	width:19px ;
+	height: 19px;
+	background: url(../images/spirit3.fw.png) no-repeat -260px 0;
+}
+#introduce .stock  .friend li i.msg{
+	position: absolute;
+	display: block;
+	width:19px ;
+	height: 19px;
+	background: url(../images/spirit3.fw.png) no-repeat -280px 0;
+	top:3px;
+	left: 0;
+}
+#introduce .stock .friend li:last-child{
+	border:1px solid #ccc;
+	padding-right: 0;
+	margin-left: 18px;
+	color: #999999;
+	line-height: 19px;
+	border-radius: 2px;
+}
+#introduce .stock .other{
+	margin-left: 20px;
+}
+#introduce .stock .other li {
+	position: relative;
+	padding-left: 20px;
+	line-height: 36px;
+}
+#introduce .stock .other li i{
+	display: block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	background: url(../images/spirit3.fw.png)no-repeat;
+	top:10px;
+	left: 0;
+}
+#introduce .stock .brand{
+	margin-top: 50px;
+}
+#introduce .stock .brand li{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ /*package*/
+#package .container{
+	width: 100%
+	height:236px;
+	border:2px solid #ccc;
+	margin-bottom: 20px;
+}
+#package .offer{
+	width:966px;
+	margin-left: 5px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 8px;
+	text-align: center;
+}
+#package .offer h3{
+	width: 145px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#package .offer ul li{
+	width: 64px;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+#package .offer ul li:hover{
+	font-weight: bold;
+	border: 1px solid #ccc;
+	border-bottom: 0px;
+}
+#package .value{
+	padding-left: 20px;
+}
+#package .value li{
+	width: 160px;
+	padding-bottom: 20px;
+}
+#package .value li img{
+	width: 130px;
+	height: 130px;
+	padding-left: 20px;
+}
+#package .value li p{
+	line-height: 14px;
+	font-size: 10px;
+	color:#333333;
+}
+#package .value li .sale{
+	color: #FF4B29;
+}
+#package .value .sum{
+	padding-top: 20px; 
+}
+#package .value .sum p:nth-child(1){
+	text-decoration: line-through;
+	line-height: 24px;
+	color: #333;
+	font-size: 12px;
+}
+
+#package .value .sum p:nth-child(2){
+	line-height: 24px;
+	color: #FF4584;
+	font-size: 18px;
+}
+#package .value .sum p:nth-child(3){
+	line-height: 24px;
+	color: #FF4500;
+	font-weight: bolder;
+	font-size: 14px;
+}
+#package .value .sum p:nth-child(4){
+	line-height: 24px;
+	color: #58BC58;
+	font-size: 13px;
+}
+#package .value .sum p:nth-child(5){
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -250px -250px;
+	height: 28px;
+	line-height: 24px;
+	width: 116px;
+	color: #fff;
+	font-size: 13px;
+	text-indent: 30px;
+	position: relative;
+}
+#package .value .sum p:nth-child(5) i{
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -400px -250px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top:8px;
+	left: 104px;
+}
+#package .value .sign{
+	width: 64px;
+	height:180px;
+	position: relative;
+}
+#package .value .sign .plus{
+	display: block;
+	width: 30px;
+	height:30px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -70px -250px;
+}
+#package .value .sign .equal{
+	display: block;
+	width: 40px;
+	height:30px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: -150px -250px;
+}
+
+ /*产品*/
+ #product .des{
+	box-shadow: -2px 0px 3px 1px #EEEEEE inset;
+ }
+ #product .description{
+	width: 744px;
+}
+#product .description h3{
+	line-height: 26px;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	border-bottom: 2px solid #333333;
+	background: #fff;
+}
+#product .description .content .banner{
+	width: 740px;
+	height: 60px;
+	background: url("../images/spirit2.png") no-repeat;
+	background-position: 0 -160px;
+}
+#product .description .content .wenzi{
+	padding:10px 0 10px 10px;
+}
+#product .description .content .wenzi p{
+	line-height: 30px;
+	font-size: 14px;
+	color: #333333;
+}
+#product .description .content .wenzi .p3{
+	line-height: 20px;
+}
+#product .description .features h4{
+	width: 740px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	text-indent: 60px;
+	background: url("../images/spirit2.png") no-repeat;
+	background-position: 0 -400px;
+}
+#product .description .features ul li{
+	float: left;
+	text-align: center;
+	background: #EFEFEF;
+}
+#product .description .features ul img{
+	height: 60px;
+}
+#product .description .features ul .list1{
+	width: 85px;
+}
+#product .description .features ul .list2{
+	width: 174px;
+}
+#product .description .features ul .list3{
+	width: 110px;
+}
+#product .description .features ul .list4{
+	width: 160px;
+}
+#product .description .features ul .list5{
+	width: 116px;
+}
+#product .bought h3{
+	background: #505050;
+	padding-right: 35px;
+	position: relative;
+}
+#product .bought h3 span{
+	display:block;
+	height: 30px;
+	color:#fff;
+	width: 200px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+#product .bought h3 i{
+	display:block;
+	width: 35px;
+	height: 30px;
+	background: url(../images/spirit2.png) no-repeat;
+	background-position: 0 -250px;
+	position: absolute;
+	left:200px;
+	top:5px;
+}
+#product .bought ul{
+	padding-left: 44px;
+	padding-top: 37px;
+	background: linear-gradient(to bottom,#ccc 0%,#fff 2%);
+	/*background: url("../images/back2.png") no-repeat;*/
+}
+#product .bought ul li{
+	width: 160px;
+	height: 230px;
+}
+#product .bought ul li img{
+	width: 130px;
+	height: 130px;
+	padding-left: 10px;
+}
+#product .bought ul li p{
+	line-height: 14px;
+	font-size: 10px;
+	color:#333333;	
+}
+#product .bought ul li p:nth-child(2){
+
+	padding-bottom: 5px;
+}
+#product .bought ul li p:nth-child(3) span{
+	text-decoration: line-through;
+}
+#product .bought ul li p:nth-child(4) span{
+	color: #FF4500;
+}
+#product .bought ul li p:nth-child(5){
+	color: #58bc58;
+}
+
+
+/*评论总计、统计区域====================*/
+#ratingAndReview{
+	width: 740px;
+	margin: 0 auto;
+}
+#ratingAndReview h4{
+	height: 43px;
+	border-bottom: 2px solid #404040;
+	padding-top: 10px;
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+#ratingAndReview .averageBox{
+	height: 110px;
+	background: #EFEFEF;
+	padding: 10px;
+	margin-right: 2px;
+}
+#ratingAndReview .average_l{
+
+}
+#ratingAndReview .average_l h6{
+	line-height: 26px;
+	color: #333;
+}
+#ratingAndReview .average_l .level{
+	height: 23px;
+	width: 135px;
+	background: url("../images/spirit4.fw.png") no-repeat 0 -30px;
+}
+#ratingAndReview .average_l p{
+	line-height: ;
+}
+#ratingAndReview .average_l a{
+	color: #FF4500;
+	text-decoration: underline;
+}
+
+#ratingAndReview .average_r>li{
+	margin-top: 2px;
+}
+#ratingAndReview .cols{
+	width: 290px;
+}
+#ratingAndReview .cols li{
+	float: left;
+	margin-left: 4px;
+	line-height: 16px;
+}
+#ratingAndReview .cols li:nth-child(2){
+	width: 76px;
+	height: 14px;
+	background: url("../images/spirit4.fw.png") no-repeat -170px 0;
+	position: relative;
+	top: 2px;
+}
+#ratingAndReview .average_r li:nth-child(2) .cols li:nth-child(2){
+	background-position: -185px 0;
+}
+#ratingAndReview .average_r li:nth-child(3) .cols li:nth-child(2){
+	background-position: -200px 0;
+}
+#ratingAndReview .average_r li:nth-child(4) .cols li:nth-child(2){
+	background-position: -216px 0;
+}
+#ratingAndReview .average_r li:nth-child(5) .cols li:nth-child(2){
+	background-position: -232px 0;
+}
+#ratingAndReview .cols li:nth-child(3){
+	position: relative;
+	height: 10px;
+	width: 136px;
+	background: #DCDCDC;
+	top: 4px;
+}
+#ratingAndReview .cols li:nth-child(3) p{
+	position: absolute;
+	height: 10px;
+	left: 0;
+	top: 0;
+	background: #2BBB14;
+}
+/*评论展示区域===============================*/
+#reviewBox>li{
+	border-bottom: 1px dotted #CFCFCF;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 26px;
+}
+#reviewBox .view_l{
+	width: 140px;
+	float: left;
+}
+#reviewBox .view_l li:first-child{
+	height: 14px;
+	width: 82px;
+	background: url("../images/spirit4.fw.png") 0 -60px;
+}
+#reviewBox .view_l li:nth-child(2){
+	line-height: 20px;
+	color: #999;
+	font-size: 12px;
+}
+#reviewBox .view_l li:nth-child(3){
+	height: 28px;
+	color: #FF4500;
+	font-size: 12px;
+	font-weight: bold;
+}
+#reviewBox .view_l .last{
+	line-height: 16px;
+	height: 16px;
+	font-size: 12px;
+	color: #999;
+}
+#reviewBox .view_l .last i{
+	display: inline-block;
+	padding: 8px;
+	font-size: 0;
+	vertical-align: middle;
+	background: url("../images/spirit4.fw.png") no-repeat;
+}
+#reviewBox .view_l .last i.good{
+	background-position: -120px 0;
+}
+#reviewBox .view_l .last i.bad{
+	background-position: -140px 0;
+	margin-left: 10px;
+}
+#reviewBox .view_l .last span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	cursor: pointer;
+}
+#reviewBox .view_r{
+	width: 590px;
+	float: right;
+}
+#reviewBox .view_r p:first-child{
+	line-height: 20px;
+}
+#reviewBox .view_r img{
+	display: block;
+	width: 52px;
+	height: 52px;
+	border: 1px solid #CFCFCF;
+	padding: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#reviewBox .view_r p:last-child{
+	height: 32px;
+	border: 1px dotted #9BDF70;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #228B22;
+	background: #F0FBEB;
+	position: relative;
+}
+#reviewBox .view_r p:last-child i{
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 8px;
+	top: 7px;
+	background: url("../images/spirit4.fw.png") no-repeat;
+	background-position: 0 0;
+}
+/*页码部分==============================*/
+#pageItem{
+	border-bottom: 2px solid #404040;
+	margin-bottom: 2px;
+}
+#pageItem ul li{
+	float: left;
+	line-height: 36px;
+	cursor: pointer;
+	padding: 0 8px;
+}
+#pageItem ul li.active{
+	color: #FF4500;
+	font-weight: bold;
+}
+#pageItem ul li:hover{
+	text-decoration: underline;
+}
+#pageItem ul li.last{
+	width: 60px;
+	position: relative;
+}
+#pageItem ul li.last:after{
+	content: "";
+	display: block;
+	position:absolute;
+	height: 0;
+	left: 40px;
+	top: 16px;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-left: 5px solid #333;
+	border-right: 5px solid transparent;
+}
+
+
+/*评论的填写与提交==================*/
+#subReview{
+	width: 740px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+#subReview .level{
+	width: 135px;
+	height: 23px;
+	cursor: pointer;
+	background: url("../images/spirit4.fw.png") no-repeat 0px -30px;
+}
+#subReview .level li{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#subReview .p_title{
+	padding-top: 16px;
+	line-height: 16px;
+	color:#333;
+}
+#subReview .p1 input{
+	border: 1px solid #ccc;
+	width: 184px;
+	height: 24px;
+	padding-left: 2px;
+}
+#subReview textarea{
+	border: 1px solid #ccc;
+	width: 376px;
+	height: 108px;
+	padding: 4px;
+}
+#subReview .checkNum{
+	padding: 10px 0;
+}
+#subReview .checkNum input:first-child{
+	width: 54px;
+	height: 24px;
+	border: 1px solid #ccc;
+	padding-left: 2px;
+}
+#subReview .checkNum #randomNum{
+	width: 120px;
+	height: 24px;
+	background: #909090;
+	border-radius: 2px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+#subReview #subBtn{
+	width: 64px;
+	height: 32px;
+	background: #F88E1B;
+	color: #fff;
+}

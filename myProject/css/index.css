@@ -1,0 +1,326 @@
+#nav .container .tab1_tab1{
+	display: block;
+}
+/*主体部分*/
+#main{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*主体的左边部分*/
+#mian_l{
+	width: 210px;
+	float: left;
+}
+#mian_l li{
+	line-height: 24px;
+}
+#mian_l li a{
+	padding-left: 15px;
+	background: url(../images/l-1.png)no-repeat;
+	color: #000;
+}
+/*主体的右边部分===============================*/
+#mian_r{
+	margin-left: 210px;
+	box-shadow: 3px 0 5px 0px #DBDBDB inset;
+}
+
+/*轮播图的上面半部分*/
+#mian_r .banner .b_t{
+	height: 350px;
+	background: url(../images/banner.png);
+}
+/*轮播图的下面半部分*/
+#mian_r .banner .b_b{
+	height: 37px;
+	background: url("../images/banner12.png") no-repeat;
+	position: relative;
+}
+#mian_r .banner .b_b a{
+	position: absolute;
+	display: block;
+	right: 30px;
+	line-height: 36px;
+	color: #fff;
+	text-decoration: underline;
+	padding-right: 10px;
+}
+#mian_r .banner .b_b a:after{
+	content: "";
+	display: block;
+	height: 0;
+	border: 4px solid transparent;
+	border-left-color: #fff;
+	position: absolute;
+	right: -4px;
+	top: 16px;
+}
+/*合作伙伴的logo=================================*/
+#mian_r .partner{
+	background: #eee;
+	margin-left: 6px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#mian_r .partner li{
+	float: left;
+	width: 19%;
+	height: 132px;
+	background: #FFF;
+	margin-top: 5px;
+	margin-left: 5px;
+	position: relative;
+}
+#mian_r li img{
+	display: block;
+	width: 100%;
+}
+#mian_r .partner li span{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	color: #333;
+}
+/*Staff Picks部分====================================*/
+#mian_r .staff{
+	background: linear-gradient(to bottom,#E4EAF0,#fff);
+	margin-left: 6px;
+	margin-top: 2px;
+}
+#mian_r .staff h3{
+	line-height: 50px;
+	padding-left: 8px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#mian_r .staff ul{
+	padding-left: 8px;
+}
+#mian_r .staff li{
+	float: left;
+	width: 48%;
+}
+#mian_r .staff li:last-child{
+	float: right;
+}
+#mian_r .staff li a{
+	display: block;
+	float: left;
+	color: #333;
+}
+#mian_r .staff li .item_l{
+	width: 130px;
+	height: 130px;
+	float: left;
+	background: url("../images/product3_5.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+#mian_r .staff .item_r{
+	float: left;
+	width: 220px;
+	margin-left: 8px;
+}
+#mian_r .staff .item_r p:first-child{
+	line-height: 18px;
+	font-weight: bold;
+}
+#mian_r .staff .item_r p:nth-child(2){
+	margin-top: 10px;
+	line-height: 18px;
+	text-decoration: line-through;
+}
+#mian_r .staff .item_r p:last-child{
+	line-height: 20px;
+	color: #FF4500;
+}
+
+/*New Arrivals部分=================================*/
+#mian_r .new{
+	position: relative;
+}
+#mian_r .new h3{
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	padding-left: 13px;
+}
+#main .new ul{
+	margin: 0 auto;
+	margin-left: 36px;
+	margin-top: 16px;
+}
+#main .new li{
+	float: left;
+	width: 170px;
+	margin-right: 10px;
+	position: relative;
+}
+#main .new li a{
+	display: block;
+	color: #000;
+}
+#main .new li a .pic{
+	height: 170px;
+	background: url("../images/product3_2.jpg") no-repeat;
+	background-size: contain;
+}
+#main .new li:nth-child(4n){
+	margin-right: 0;
+}
+#main .new a img{
+	width: 100%;
+	height: 130px;
+}
+#main .new a p{
+	line-height: 20px;
+}
+#main .new a p:nth-of-type(1){
+	line-height: 16px;
+}
+#main .new a p:nth-child(3) span{
+	text-decoration: line-through;
+}
+#main .new a p:nth-child(4) span{
+	color: red;
+}
+#main .new a p:last-child{
+	color: green;
+}
+#main .new .leftBtn,#main .new .rightBtn{
+	position: absolute;
+	width: 14px;
+	height: 33px;
+	top: 160px;
+	background: url("../images/spirits.fw.png") no-repeat -350px -90px;
+	cursor: pointer;
+}
+#main .new .leftBtn{
+	left: 10px;
+	background-position: -380px -90px;
+}
+#main .new .rightBtn{
+	right: 0px;
+}
+/*Top Sellers部分====================================*/
+#mian_r .topSeller h3{
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	color: #000;
+	padding-left: 13px;
+	margin-top: 20px;
+}
+#main .topSeller ul{
+	margin: 0 auto;
+	margin-left: 36px;
+	margin-top: 16px;
+}
+#main .topSeller li{
+	float: left;
+	width: 170px;
+	margin-right: 10px;
+	position: relative;
+	margin-bottom: 40px;
+}
+#main .topSeller li a{
+	display: block;
+	color: #000;
+}
+#main .topSeller li a .pic{
+	height: 170px;
+	background: url("../images/product5_3.jpg") no-repeat;
+	background-size: contain;
+}
+#main .topSeller li:nth-child(4n){
+	margin-right: 0;
+}
+#main .topSeller a img{
+	width: 100%;
+	height: 130px;
+}
+#main .topSeller a p{
+	line-height: 20px;
+}
+#main .topSeller a p:nth-of-type(1){
+	line-height: 16px;
+}
+#main .topSeller a p:nth-child(3) span{
+	text-decoration: line-through;
+}
+#main .topSeller a p:nth-child(4) span{
+	color: red;
+}
+#main .topSeller a p:last-child{
+	color: green;
+}
+/*Top Designer Replica Handbags News部分=============*/
+#main .topNews{
+	padding-left: 20px;
+}
+#main .topNews h3{
+	font-size: 16px;
+	color: #000;
+	padding-left: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	position: relative;
+}
+#main .topNews h3 i{
+	display: block;
+	width: 25px;
+	height: 24px;
+	background: url(../images/spirits.fw.png) no-repeat -175px -120px;
+	position: absolute;
+	left: -2px;
+	top: -2px;
+}
+#main .topNews h3>a{
+	display: block;
+	float: right;
+	border-bottom: 1px solid #000;
+	color: #000;
+	font-weight:normal;
+	font-size: 12px;
+}
+#main .topNews ul{
+	padding-right: 70px;
+}
+#main .topNews li{
+	margin: 10px 0;
+}
+#main .topNews li img{
+	width: 60px;
+	height: 65px;
+	margin-right: 8px;
+	float: left;
+}
+#main .topNews li a{
+	display: inline-block;
+	font-size: 12px;
+	border-bottom: 1px solid #333333;
+	margin-bottom: 4px;
+	color: #333333;
+}
+#main .topNews li>p{
+	line-height: 16px;
+	color: #777777;
+}
+/*主体的最下面部分===============================*/
+#mian_b ul{
+	padding: 22px 0 12px 0;
+}
+#mian_b ul li{
+	display: inline-block;
+	color: #000;
+}
+#mian_b ul li a{
+	border-right: 1px solid #000;
+	padding: 0 9.5px;
+	color: #000;
+}
+#mian_b ul li:last-child a{
+	border-right:0;
+}

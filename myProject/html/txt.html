@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    class Single {
+        constructor() {};
+    }
+    Single.getInstance = (function() {
+        var instance;
+        return function() {
+            if (!instance) {
+                instance = new Single();
+            }
+            return instance;
+        }
+    })()
+    var s1 = Single.getInstance();
+    var s2 = Single.getInstance();
+    console.log(s1 == s2);
+    </script>
+</body>
+
+</html>

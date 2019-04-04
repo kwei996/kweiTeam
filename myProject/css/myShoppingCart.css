@@ -1,0 +1,291 @@
+#yourItem{
+	min-height: 500px;
+}
+#yourItem .container{
+	border: 1px solid #CFCFCF;
+	border-top-color: transparent;
+}
+/*购物流程图=======================================*/
+#yourItem .process{
+	border-bottom: 2px solid #404040;
+}
+#yourItem .process li{
+	float: left;
+	line-height: 78px;
+	padding-left: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+}
+#yourItem .process li i{
+	display: block;
+	width: 14px;
+	height: 35px;
+	position: absolute;
+	top: 22px;
+	left: 22px;
+	background: url("../images/spirits.fw.png") no-repeat -350px -90px;
+}
+#yourItem .process li:first-child{
+	padding-left: 75px;
+	color: #FF4500;
+}
+#yourItem .process li:first-child i{
+	width: 32px;
+	height: 30px;
+	top: 22px;
+	left: 22px;
+	background-position: -350px -40px;
+}
+#yourItem .process li span{
+	font-size: 24px;
+	font-style: italic;
+}
+
+/*您已选择的物品=================================*/
+#yourItem .yourItem_title{
+	line-height: 36px;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+	font-size: 14px;
+	font-weight: bold;
+	background: linear-gradient(to top,#eee,#fff);
+}
+#yourItem .yourItem_title span:nth-child(1){
+	padding-left: 6px;
+}
+#yourItem .yourItem_title span:nth-child(2){
+	padding-left: 434px;
+}
+#yourItem .yourItem_title span:nth-child(3){
+	padding-left: 46px;
+}
+#yourItem .yourItem_title span:nth-child(4){
+	padding-left: 75px;
+}
+#yourItem .yourItem_title span:nth-child(5){
+	padding-left: 76px;
+}
+#yourItem .itemList{
+	width: 100%;
+	border-spacing: 0;
+}
+#yourItem tr td{
+	border-top: 1px solid #CFCFCF;
+	vertical-align: top;
+	padding-top: 10px;
+}
+#yourItem .itemList tr td:nth-child(1){
+	padding: 0;
+	width: 95px;
+}
+#yourItem tr td:nth-child(1) img{
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+#yourItem tr td:nth-child(2){
+	width: 420px;
+}
+#yourItem tr td:nth-child(2) h6{
+	color: #008AD1;
+	font-weight: bold;
+	line-height: 18px;
+}
+#yourItem tr td:nth-child(3){
+	width: 100px;
+	padding-left: 20px;
+}
+#yourItem tr td:nth-child(3) p{
+	width: 51px;
+	position: relative;
+	text-align: center;
+}
+#yourItem tr td:nth-child(3) input{
+	width: 27px;
+	height: 18px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#yourItem tr td:nth-child(3) p i{
+	position: absolute;
+	width: 20px;
+	cursor: pointer;
+	top: 0;
+	border: 1px solid #ccc;
+}
+#yourItem tr td:nth-child(3) p i:first-child{
+	left: -8px;
+}
+#yourItem tr td:nth-child(3) p i:last-child{
+	right: -8px;
+}
+
+#yourItem tr td:nth-child(4){
+	width: 130px;
+	padding-left: 20px;
+}
+#yourItem tr td:nth-child(4) p{
+	text-decoration: line-through;
+}
+#yourItem tr td:nth-child(4) span{
+	color: #FF4500;
+	font-weight: bold;
+}
+#yourItem tr td:nth-child(5){
+	width: 160px;
+}
+#yourItem tr td:nth-child(5) span{
+	color: #228B22;
+}
+#yourItem tr td:nth-child(6){
+	padding: 0;
+	vertical-align: middle;
+}
+#yourItem tr td:nth-child(6) i{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0 auto;
+	background: url("../images/spirits.fw.png") no-repeat -320px -40px;
+	cursor: pointer;
+}
+#yourItem .cartTotal{
+	border-top: 1px solid #CFCFCF;
+}
+#yourItem .cartTotal .right{
+	margin-right: 35px;
+	margin-bottom: 15px;
+}
+#yourItem .cartTotal .right p{
+	text-align: right;
+}
+#yourItem .cartTotal .right p:first-child{
+	padding-top: 20px;
+}
+#yourItem .cartTotal .right p:first-child span{
+	color: #FF4500;
+	font-weight: bold;
+	font-size: 16px;
+}
+#yourItem .cartTotal .right p:nth-child(2){
+	color: #228B22;
+	line-height: 34px;
+}
+#yourItem .cartTotal .right .proToCheckout{
+	width: 185px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 12px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background: #FF4500;
+	cursor: pointer;
+	position: relative;
+}
+#yourItem .cartTotal .right .proToCheckout i{
+	height: 0;
+	position: absolute;
+	right: 4px;
+	top: 10px;
+	border: 5px solid transparent;
+	border-left-color: #fff;
+}
+#yourItem .cartTotal .left{
+	line-height: 88px;
+	padding-left: 36px;
+	position: relative;
+	cursor: pointer;
+}
+#yourItem .cartTotal .left i{
+	position: absolute;
+	top: 40px;
+	left: 16px;
+	border: 5px solid transparent;
+	border-right-color: #000;
+}
+
+/*热卖单品推荐===================================*/
+#hotItem h4{
+	line-height: 50px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#hotItem li{
+	float: left;
+	width: 123px;
+	padding-bottom: 30px;
+	margin: 0 20px;
+}
+#hotItem li .pic{
+	height: 110px;
+	background: url("../images/product1_1.jpg") no-repeat;
+	background-size: contain;
+}
+#hotItem h6{
+	line-height: 18px;
+	word-break: break-all;
+}
+#hotItem p{
+	line-height: 20px;
+}
+#hotItem p span:first-child{
+	text-decoration: line-through;
+	color: #5A5A5A;
+}
+#hotItem p span:last-child{
+	color: #FF4500;
+}
+#hotItem .addToBtn{
+	width: 73px;
+	height: 16px;
+	background: #D2691E;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	color: #fff;
+	padding-left: 6px;
+	margin-top: 4px;
+	line-height: 16px;
+	position: relative;
+	cursor: pointer;
+}
+#hotItem .addToBtn:after{
+	content: "";
+	display: block;
+	height: 0;
+	border: 4px solid transparent;
+	border-left: 6px solid #fff;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+#hotItem .container{
+	position: relative;
+}
+#hotItem .container .leftBtn,#hotItem .container .rightBtn{
+	width: 14px;
+	height: 33px;
+	position: absolute;
+	top: 110px;
+	background: url("../images/spirits.fw.png") no-repeat;
+	cursor: pointer;
+}
+#hotItem .container .leftBtn{
+	left: -12px;
+	background-position: -380px -90px;
+}
+#hotItem .container .rightBtn{
+	background-position: -350px -90px;
+	right: -12px;
+}
+
+
+
+
+
+
+
+
